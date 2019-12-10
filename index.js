@@ -1,8 +1,9 @@
 /* eslint-disable no-undef */
 
-import express from "express";
-import express_graphql from "express-graphql";
 import bodyParser from "body-parser";
+
+import express_graphql from "express-graphql";
+import express from "express";
 import { buildSchema } from "graphql";
 
 //grapql Schema
