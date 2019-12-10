@@ -3,7 +3,7 @@ const http = require('http');
 
 const server = http.createServer((request, response) => {
     response.writeHead(200, {"Content-Type": "text/plain"});
-    response.end("Hello dear!!! GitHub Actions is cool!");
+    response.end("Hey Kader!!! Node.js çalışıyor. Üstelik GitHub desteğini de yanıma aldım");
 });
 
 const port = process.env.PORT || 1337;
