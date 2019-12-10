@@ -12,5 +12,6 @@
         "eslint": "^6.3.0"
     },
     "dependencies": {
+        "nodemon": "^2.0.1"
     }
 }
